@@ -1,0 +1,24 @@
+﻿<Project Sdk="Microsoft.NET.Sdk">
+
+    <PropertyGroup>
+        <TargetFramework>net8.0</TargetFramework>
+        <ImplicitUsings>enable</ImplicitUsings>
+        <Nullable>enable</Nullable>
+        <GeneratePackageOnBuild>true</GeneratePackageOnBuild>
+        <Authors>CHHS Application Development Team</Authors>
+        <Version>1.0.0</Version>
+        <PackageProjectUrl>https://github.com/csu-chhs/CsuChhs.AuthorizeWebhooks</PackageProjectUrl>
+        <Company>College of Health and Human Sciences</Company>
+        <PackageId>CsuChhs.AuthorizeWebhooks</PackageId>
+        <PackageDescription>A C# library for interacting with webhooks from Authorize.Net</PackageDescription>
+        <RepositoryUrl>https://github.com/csu-chhs/CsuChhs.AuthorizeWebhooks</RepositoryUrl>
+        <PackageLicenseExpression>Apache-2.0</PackageLicenseExpression>
+        <PackageReadmeFile>README.md</PackageReadmeFile>
+    </PropertyGroup>
+
+    <ItemGroup>
+      <PackageReference Include="restsharp" Version="112.1.0" />
+      <None Include="../README.md" Pack="true" PackagePath="\"/>
+    </ItemGroup>
+
+</Project>
